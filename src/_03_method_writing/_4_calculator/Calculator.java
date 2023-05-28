@@ -19,6 +19,7 @@ public class Calculator {
 
 		// 3) Call the correct method depending on what option the user chooses
 		//task == 0? divide(number1, number2): task == 1? multiply()
+		// 4) Call the result() method and put the answer in a pop-up
 		if (task == 0) {
 			JOptionPane.showMessageDialog(null, result(divide(number1, number2)));
 		} else if (task == 1) {
@@ -28,8 +29,7 @@ public class Calculator {
 		} else if (task == 3) {
 			JOptionPane.showMessageDialog(null, result(add(number1, number2)));
 		}
-		// 4) Call the result() method and put the answer in a pop-up
-		
+
 	}
 	
 	// 1) Make 4 static methods (add, subtract, multiply, divide)
